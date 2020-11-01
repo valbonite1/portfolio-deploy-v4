@@ -1,0 +1,44 @@
+:root {
+    --btn-dark: #0b2338;
+    --btn-light:  #133e63;
+    --btn-blue:  #00cce7;
+}
+
+
+.btn-dark {
+    color: #333;
+    border: solid 2px var(--btn-blue);
+    background-color: var(--btn-blue);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: .8rem;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: .15s;
+    font-weight: 300;
+}
+
+.btn-light {
+    color: #fff;
+    border: solid 2px var(--btn-blue);
+    background-color: #181818;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: .15s;
+    font-weight: 300;
+
+}
+
+.btn-dark:hover {
+    background-color: #007281;
+    border: solid 2px #007281;
+    color: #fff;
+}
+
+.btn-light:hover {
+    background-color: var(--btn-blue);
+    border: solid 2px var(--btn-blue);
+    color: #333;
+}

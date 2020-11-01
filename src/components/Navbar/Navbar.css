@@ -1,0 +1,153 @@
+:root {
+    font-size: 16px;
+    font-family: 'Roboto', 'Sans-Serif';
+    --text-primary: #eeeeee;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    visibility: hidden;
+    width: 4rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #0e0e0e; 
+}
+
+.navbar .logo {
+    width: 2.5rem;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+
+}
+
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+
+}
+
+
+.nav-item:first-child {
+    margin-top: 10px;
+}
+
+.nav-item {
+    margin-bottom: 25px;
+    transition: .3s;
+    color: rgb(97, 97, 97); 
+    
+}
+
+.icons {
+    font-size: 22px;
+    position: absolute;
+    left: 20px;
+}
+
+.link-text {
+    margin: 0;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.1s linear;
+    display: inline;
+    opacity: 0;
+}
+
+.nav-item:hover {
+    color: #2f8e9b;
+}
+
+.nav-item:hover .icons {
+    visibility: hidden;
+}
+
+.nav-item:hover .link-text {
+    visibility: visible;
+    text-decoration: none;
+    font-size: 10px;
+    opacity: 1;
+
+}
+
+/*-----------------------------------*/
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        height: 4rem;
+        width: 100vw;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        position: absolute;
+        left: 50px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+        top: 10px;
+        height: 100%;
+    }
+
+    .nav-link {
+        position: relative;
+    }
+
+    .link-text {
+        display: none;
+    }
+    
+    .nav-item:hover .icons {
+        visibility: visible;
+    }
+
+    .logo {
+        position: absolute;
+        left: 5px;
+        top: 0;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+    
+
+}
