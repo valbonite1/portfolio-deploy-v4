@@ -34,7 +34,7 @@ let nav = useRef(null);
                   <Link to="/skills" className="nav-link">
                     <li className="nav-item"><ImIcons.ImStack className="icons" /><span className="link-text">SKILLS</span></li>
                   </Link>
-                  <Link to="/projects" className="nav-link">
+                  <Link to="/project" className="nav-link">
                     <li className="nav-item"><BiIcons.BiBookBookmark className="icons" /><span className="link-text">PROJECTS</span></li>
                   </Link>
                   <Link to="/contact" className="nav-link">

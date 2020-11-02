@@ -14,7 +14,7 @@
 .contact-container {
     margin-left: 4rem;
     position: fixed;
-    /* visibility: hidden; */
+    visibility: hidden;
     width: 100%;
     background:#181818;
     height: 100vh;

@@ -1,20 +1,23 @@
 import React, { useEffect, useRef } from 'react';
 import './Contact.css';
 import emailjs from "emailjs-com";
-import { TweenMax, TimelineLite, Power3 } from 'gsap';
+import { TweenMax, Power3, gsap } from 'gsap/dist/gsap';
+import formImg from '../../public/img/campaign_launch.png';
 
 
 
 function Contact() {
 
+    let tl = new gsap.timeline();
+
     let contactLoad = useRef(null);
+    let formLoad = useRef(null);
+
 
     useEffect(() => {
 
-        let tl = new TimelineLite();
-
         TweenMax.to(contactLoad, 0, {css: {visibility: 'visible'}});
-        tl.from(".contact-wrapper", .8, {opacity: 0, x:320, ease: Power3.easeout, delay: 0.2}, 'start')
+        tl.from(formLoad, {opacity: 0, duration: 0.8, x:320, ease: Power3.easeout, delay: 0.2});
 
     }, []);
 
@@ -29,11 +32,12 @@ function Contact() {
         });
         e.target.reset()
     }
+    //
 
     return(
         <div>
-            <div className="contact-container" ref={el => contactLoad= el}>
-                <div className="contact-wrapper">
+            <div className="contact-container" ref={el => contactLoad = el} >
+                <div className="contact-wrapper" ref={el => formLoad = el}>
                     <form onSubmit={sendEmail}>
                         <div className="form-container">
                             <div className="form-header">
@@ -59,7 +63,7 @@ function Contact() {
                         
                     </form>
                     <div className="svg-container">
-                        <img src="/campaign_launch.png"></img>
+                        <img src={formImg} alt="rocket email"></img>
                     </div>
                 </div>
             </div>

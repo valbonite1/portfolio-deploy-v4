@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import HeroSection from './components/Pages/HeroSection';
 import About from './components/Pages/About';
 import Skills from './components/Pages/Skills';
-import Projects from './components/Pages/Projects';
+import Project from './components/Pages/Project';
 import Contact from './components/Pages/Contact';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
@@ -25,7 +25,7 @@ function App() {
               <Route path="/" exact component={HeroSection} />
               <Route path="/about" component={About} />
               <Route path="/skills" component={Skills} />
-              <Route path="/projects" component={Projects} />
+              <Route path="/project" component={Project} />
               <Route path="/contact" component={Contact} />
             </Switch>
           </CSSTransition>

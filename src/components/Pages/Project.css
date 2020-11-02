@@ -8,31 +8,31 @@
     
 }
 
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 
 .loading-container {
-    position: absolute;
-    padding: 0;
-    height: 700px;
-    left: 30px;
-    width: 90%;
-    top: 0px;
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
-.loading-container > svg {
-    width: 100%;
+.load-img {
+    width: 700px;
     padding: 0;
     margin: 0;
-    height: 900px;
-    position: relative;
-    left: 0px;
-    top: -125px;
 }
 
+
 .load-wrapper {
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
 
 }
 
@@ -43,8 +43,7 @@
       font-family: 'Inconsolata', Consolas, monospace;
       font-size: 1.3rem;
       font-weight: 100;
-      margin-top: 580px;
-      margin-right: 50px;
+      margin: 0;
   }
   .loading-text span{
       position: absolute;
