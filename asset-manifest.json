@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-deploy-v4/static/css/main.7d7fa141.chunk.css",
+    "main.js": "/portfolio-deploy-v4/static/js/main.03ac9adc.chunk.js",
+    "main.js.map": "/portfolio-deploy-v4/static/js/main.03ac9adc.chunk.js.map",
+    "runtime-main.js": "/portfolio-deploy-v4/static/js/runtime-main.e7bc3d2f.js",
+    "runtime-main.js.map": "/portfolio-deploy-v4/static/js/runtime-main.e7bc3d2f.js.map",
+    "static/js/2.2d76dcaf.chunk.js": "/portfolio-deploy-v4/static/js/2.2d76dcaf.chunk.js",
+    "static/js/2.2d76dcaf.chunk.js.map": "/portfolio-deploy-v4/static/js/2.2d76dcaf.chunk.js.map",
+    "index.html": "/portfolio-deploy-v4/index.html",
+    "precache-manifest.893db9bfae9d5de8c6934f0cd2500ceb.js": "/portfolio-deploy-v4/precache-manifest.893db9bfae9d5de8c6934f0cd2500ceb.js",
+    "service-worker.js": "/portfolio-deploy-v4/service-worker.js",
+    "static/css/main.7d7fa141.chunk.css.map": "/portfolio-deploy-v4/static/css/main.7d7fa141.chunk.css.map",
+    "static/js/2.2d76dcaf.chunk.js.LICENSE.txt": "/portfolio-deploy-v4/static/js/2.2d76dcaf.chunk.js.LICENSE.txt",
+    "static/media/BONITE.png": "/portfolio-deploy-v4/static/media/BONITE.ec1d212a.png",
+    "static/media/campaign_launch.png": "/portfolio-deploy-v4/static/media/campaign_launch.f225c632.png",
+    "static/media/loading-projects.png": "/portfolio-deploy-v4/static/media/loading-projects.3b88f9d3.png",
+    "static/media/white-logo.png": "/portfolio-deploy-v4/static/media/white-logo.2062d77d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7bc3d2f.js",
+    "static/js/2.2d76dcaf.chunk.js",
+    "static/css/main.7d7fa141.chunk.css",
+    "static/js/main.03ac9adc.chunk.js"
+  ]
+}
