@@ -22,7 +22,7 @@ function App() {
             className="fade"
           >
             <Switch>
-              <Route path="/" exact component={HeroSection} />
+              <Route path="/portfolio-deploy-v3" exact component={HeroSection} />
               <Route path="/about" component={About} />
               <Route path="/skills" component={Skills} />
               <Route path="/project" component={Project} />

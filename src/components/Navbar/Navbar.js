@@ -22,10 +22,10 @@ let nav = useRef(null);
           <div >
             <nav className="navbar" ref={el => nav = el} >
               <ul className="navbar-nav" id="menu">
-                  <Link to="/" className="nav-link">
+                  <Link to="/portfolio-deploy-v3" className="nav-link">
                     <li className="nav-item"><img src={logo} className="logo"/></li>
                   </Link>
-                  <Link to="/" className="nav-link">
+                  <Link to="/portfolio-deploy-v3" className="nav-link">
                     <li className="nav-item"><AiIcons.AiOutlineHome className="icons"/><span className="link-text">HOME</span></li>
                   </Link>
                   <Link to="/about" className="nav-link">
