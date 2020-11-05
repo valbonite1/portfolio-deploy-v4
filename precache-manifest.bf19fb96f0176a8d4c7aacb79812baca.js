@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd0d00709b6ff410c3f69c431314100f",
+    "revision": "9acd016a43f0072c4a48cfd4df25ca9b",
     "url": "/portfolio-deploy-v4/index.html"
   },
   {
-    "revision": "a18bfdf3e0f1e74ce47a",
+    "revision": "d17a1b3b435ca799f91e",
     "url": "/portfolio-deploy-v4/static/css/main.8c5791b0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-deploy-v4/static/js/2.b2c6cc42.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a18bfdf3e0f1e74ce47a",
-    "url": "/portfolio-deploy-v4/static/js/main.a619e8e4.chunk.js"
+    "revision": "d17a1b3b435ca799f91e",
+    "url": "/portfolio-deploy-v4/static/js/main.7a7198b6.chunk.js"
   },
   {
     "revision": "8edc082176c7cbb0e228",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-deploy-v4/static/media/campaign_launch.f225c632.png"
   },
   {
-    "revision": "3b88f9d353fc13d68da4130b522bd506",
-    "url": "/portfolio-deploy-v4/static/media/loading-projects.3b88f9d3.png"
+    "revision": "19dc9e95f7b3c822c5439be9686763c1",
+    "url": "/portfolio-deploy-v4/static/media/loading-project.19dc9e95.png"
   },
   {
     "revision": "2062d77da8946494fbd754dca0541745",
