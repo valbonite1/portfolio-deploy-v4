@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio-deploy-v4/static/css/main.3026469c.chunk.css",
-    "main.js": "/portfolio-deploy-v4/static/js/main.7a7198b6.chunk.js",
-    "main.js.map": "/portfolio-deploy-v4/static/js/main.7a7198b6.chunk.js.map",
-    "runtime-main.js": "/portfolio-deploy-v4/static/js/runtime-main.e7bc3d2f.js",
-    "runtime-main.js.map": "/portfolio-deploy-v4/static/js/runtime-main.e7bc3d2f.js.map",
-    "static/js/2.b2c6cc42.chunk.js": "/portfolio-deploy-v4/static/js/2.b2c6cc42.chunk.js",
-    "static/js/2.b2c6cc42.chunk.js.map": "/portfolio-deploy-v4/static/js/2.b2c6cc42.chunk.js.map",
-    "index.html": "/portfolio-deploy-v4/index.html",
-    "precache-manifest.088805ff2761f212a1e5febac2f37636.js": "/portfolio-deploy-v4/precache-manifest.088805ff2761f212a1e5febac2f37636.js",
-    "service-worker.js": "/portfolio-deploy-v4/service-worker.js",
-    "static/css/main.3026469c.chunk.css.map": "/portfolio-deploy-v4/static/css/main.3026469c.chunk.css.map",
-    "static/js/2.b2c6cc42.chunk.js.LICENSE.txt": "/portfolio-deploy-v4/static/js/2.b2c6cc42.chunk.js.LICENSE.txt",
-    "static/media/BONITE.jpg": "/portfolio-deploy-v4/static/media/BONITE.4174db87.jpg",
-    "static/media/campaign_launch.png": "/portfolio-deploy-v4/static/media/campaign_launch.f225c632.png",
-    "static/media/loading-project.png": "/portfolio-deploy-v4/static/media/loading-project.19dc9e95.png",
-    "static/media/white-logo.png": "/portfolio-deploy-v4/static/media/white-logo.2062d77d.png"
+    "main.css": "/portfolio/static/css/main.3026469c.chunk.css",
+    "main.js": "/portfolio/static/js/main.8d37c668.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8d37c668.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.52ad7fa3.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.52ad7fa3.js.map",
+    "static/js/2.b2c6cc42.chunk.js": "/portfolio/static/js/2.b2c6cc42.chunk.js",
+    "static/js/2.b2c6cc42.chunk.js.map": "/portfolio/static/js/2.b2c6cc42.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.5e8acf668f2d74676d841768a79562f2.js": "/portfolio/precache-manifest.5e8acf668f2d74676d841768a79562f2.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.3026469c.chunk.css.map": "/portfolio/static/css/main.3026469c.chunk.css.map",
+    "static/js/2.b2c6cc42.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b2c6cc42.chunk.js.LICENSE.txt",
+    "static/media/BONITE.jpg": "/portfolio/static/media/BONITE.4174db87.jpg",
+    "static/media/campaign_launch.png": "/portfolio/static/media/campaign_launch.f225c632.png",
+    "static/media/loading-project.png": "/portfolio/static/media/loading-project.19dc9e95.png",
+    "static/media/white-logo.png": "/portfolio/static/media/white-logo.2062d77d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e7bc3d2f.js",
+    "static/js/runtime-main.52ad7fa3.js",
     "static/js/2.b2c6cc42.chunk.js",
     "static/css/main.3026469c.chunk.css",
-    "static/js/main.7a7198b6.chunk.js"
+    "static/js/main.8d37c668.chunk.js"
   ]
 }
