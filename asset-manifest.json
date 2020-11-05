@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-deploy-v4/static/css/main.7769136a.chunk.css",
-    "main.js": "/portfolio-deploy-v4/static/js/main.341682fd.chunk.js",
-    "main.js.map": "/portfolio-deploy-v4/static/js/main.341682fd.chunk.js.map",
+    "main.css": "/portfolio-deploy-v4/static/css/main.de638849.chunk.css",
+    "main.js": "/portfolio-deploy-v4/static/js/main.af0a82af.chunk.js",
+    "main.js.map": "/portfolio-deploy-v4/static/js/main.af0a82af.chunk.js.map",
     "runtime-main.js": "/portfolio-deploy-v4/static/js/runtime-main.e7bc3d2f.js",
     "runtime-main.js.map": "/portfolio-deploy-v4/static/js/runtime-main.e7bc3d2f.js.map",
     "static/js/2.b2c6cc42.chunk.js": "/portfolio-deploy-v4/static/js/2.b2c6cc42.chunk.js",
     "static/js/2.b2c6cc42.chunk.js.map": "/portfolio-deploy-v4/static/js/2.b2c6cc42.chunk.js.map",
     "index.html": "/portfolio-deploy-v4/index.html",
-    "precache-manifest.f7fccc1450d956f1e140cdd8549308e9.js": "/portfolio-deploy-v4/precache-manifest.f7fccc1450d956f1e140cdd8549308e9.js",
+    "precache-manifest.4a51b4e5508faab00071fd2ffc2cd11d.js": "/portfolio-deploy-v4/precache-manifest.4a51b4e5508faab00071fd2ffc2cd11d.js",
     "service-worker.js": "/portfolio-deploy-v4/service-worker.js",
-    "static/css/main.7769136a.chunk.css.map": "/portfolio-deploy-v4/static/css/main.7769136a.chunk.css.map",
+    "static/css/main.de638849.chunk.css.map": "/portfolio-deploy-v4/static/css/main.de638849.chunk.css.map",
     "static/js/2.b2c6cc42.chunk.js.LICENSE.txt": "/portfolio-deploy-v4/static/js/2.b2c6cc42.chunk.js.LICENSE.txt",
-    "static/media/BONITE.png": "/portfolio-deploy-v4/static/media/BONITE.ec1d212a.png",
+    "static/media/BONITE.jpg": "/portfolio-deploy-v4/static/media/BONITE.4174db87.jpg",
     "static/media/campaign_launch.png": "/portfolio-deploy-v4/static/media/campaign_launch.f225c632.png",
     "static/media/loading-projects.png": "/portfolio-deploy-v4/static/media/loading-projects.3b88f9d3.png",
     "static/media/white-logo.png": "/portfolio-deploy-v4/static/media/white-logo.2062d77d.png"
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.e7bc3d2f.js",
     "static/js/2.b2c6cc42.chunk.js",
-    "static/css/main.7769136a.chunk.css",
-    "static/js/main.341682fd.chunk.js"
+    "static/css/main.de638849.chunk.css",
+    "static/js/main.af0a82af.chunk.js"
   ]
 }
